@@ -13,7 +13,7 @@ st.set_page_config(layout="wide")
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-dtc_model = joblib.load('modelo_dtc_tunned.sav')
+dtc_model = joblib.load('./modelo_dtc_tunned.sav')
 
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
