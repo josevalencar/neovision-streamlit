@@ -5,5 +5,3 @@ pandas
 shap
 numpy
 matplotlib
-sklearn.metrics
-PIL
